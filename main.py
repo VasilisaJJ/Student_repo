@@ -45,18 +45,18 @@ global data, titles
 # change_line()
 # write_to_file('data.csv')
 
-# titles = ('id', 'name', 'lastname', 'age', 'height', 'weight') 
-# data = [ # создание кортежа заголовков и списка данных в Программе
-#     (1, 'Ivan', 'Ivanov', 14, 160, 50),
-#     (2, 'Sasha', 'Sidorov', 15, 210, 40),
-#     (3, 'Masha', 'Poradina', 30, 178, 70),
-#     (4, 'Timur', 'Korolev', 44, 160, 120)
-#        ]
+titles = ('id', 'name', 'lastname', 'age', 'height', 'weight') 
+data = [ # создание кортежа заголовков и списка данных в Программе
+    (1, 'Ivan', 'Ivanov', 14, 160, 50),
+    (2, 'Sasha', 'Sidorov', 15, 210, 40),
+    (3, 'Masha', 'Poradina', 30, 178, 70),
+    (4, 'Timur', 'Korolev', 44, 160, 120)
+       ]
 
 # write_to_file('New_data.csv') # запись информации в БД = перевод кортежей и 
 # списка программы в формат str
 
-titles, data = read_from_file('New_data.csv')
+# titles, data = read_from_file('New_data.csv')
 
 adds_count, changes_count = 0, 0
 
