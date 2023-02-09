@@ -56,9 +56,9 @@ data = [                                                             # созд�
 # write_to_file('New_data.csv') # запись информации в БД = перевод кортежей и 
 # списка программы в формат str
 
-titles, data = read_from_file('New_data.csv')
-insert(get_line())
-change_line()
+# titles, data = read_from_file('New_data.csv')
+# insert(get_line())
+# change_line()
 
 write_to_file('New_data.csv')
 print_data() # == print(columns, data) только красиво
